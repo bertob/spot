@@ -19,8 +19,13 @@ msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
 #. translators: This notification is the default message for unhandled errors. Logs refer to console output.
-#: src/app/batch_loader.rs:101 src/app/components/mod.rs:118
+#: src/app/batch_loader.rs:101 src/app/components/mod.rs:122
 msgid "An error occured. Check logs for details!"
+msgstr ""
+
+#: src/app/components/device_selector/widget.rs:138
+#: src/app/components/device_selector/device_selector.ui:8
+msgid "Playing on this device"
 msgstr ""
 
 #. translators: This is part of a contextual menu attached to a single track; this entry allows viewing the album containing a specific track.
@@ -66,6 +71,11 @@ msgstr ""
 msgid "{} by {}"
 msgstr ""
 
+#. translators: This is part of a contextual menu attached to a single track; the full text is "More from <artist>".
+#: src/app/components/labels.rs:61
+msgid "Playing on {}"
+msgstr ""
+
 #. translators: This notification shows up right after login if the password could not be stored in the keyring (that is, GNOME's keyring aka seahorse, or any other libsecret compliant secret store).
 #: src/app/components/login/login_model.rs:56
 msgid "Could not save password. Make sure the session keyring is unlocked."
@@ -94,7 +104,6 @@ msgid "Unnamed playlist"
 msgstr ""
 
 #: src/app/components/navigation/home.rs:87
-#: src/app/components/now_playing/now_playing.ui:27
 msgid "Now playing"
 msgstr ""
 
@@ -219,18 +228,6 @@ msgstr ""
 msgid "Copyright"
 msgstr ""
 
-#: src/app/components/now_playing/now_playing.ui:10
-msgid "Listening on"
-msgstr ""
-
-#: src/app/components/now_playing/now_playing.ui:17
-msgid "Refresh devices"
-msgstr ""
-
-#: src/app/components/now_playing/now_playing.ui:51
-msgid "This device"
-msgstr ""
-
 #. Login window title -- shouldn't be too long, but must mention Premium (a premium account is required).
 #: src/app/components/login/login.ui:45
 msgid "Login to Spotify Premium"
@@ -269,6 +266,18 @@ msgstr ""
 #. Button label. Selects all visible songs.
 #: src/app/components/headerbar/headerbar.ui:57
 msgid "Select all"
+msgstr ""
+
+#: src/app/components/device_selector/device_selector.ui:14
+msgid "Listening on"
+msgstr ""
+
+#: src/app/components/device_selector/device_selector.ui:21
+msgid "Refresh devices"
+msgstr ""
+
+#: src/app/components/device_selector/device_selector.ui:31
+msgid "This device"
 msgstr ""
 
 #: src/app/components/playback/playback_controls.ui:17
